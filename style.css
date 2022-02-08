@@ -1,0 +1,86 @@
+@font-face {
+    font-family:'game' ;
+    src: url('./fonts/Game On_PersonalUseOnly.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+h1{
+    font-family: 'game';
+    font-size: 70px;
+    color: orangered;
+    text-align: center;
+}
+#container{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: flex; 
+    justify-content:space-around
+}
+
+
+.torre{
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+    width: 15px;
+    height: 300px;
+    background-color: black;
+    border-radius: 5px;
+
+    
+}
+#discoAzul{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 15px;
+   
+
+    
+}
+#discoVerde{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 15px;
+    
+}
+
+#discoAmarelo{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 15px;
+    
+
+}
+#discoVermelho{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    border-radius: 15px;
+  
+}
+.selecionado{
+    border-width: 4px;
+    border-style: solid;
+    border-color:gray;
+}
+.disco{
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+}
+.parabens{
+    float:left;
+    width: 100%;
+    height: 200px;
+    background-color: orangered;
+    font-family:sans-serif ;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    line-height: 200px;
+}
